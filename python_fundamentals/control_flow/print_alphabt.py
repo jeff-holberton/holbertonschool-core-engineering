@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
 
-alphabet = "abcdfghijklmnoprstuvwxyz"
-print(alphabet)
+alphabet = "abcdefghijklmnopqrstuvwxyz"
+for i in alphabet:
+    if i != 'e' or 'q':
+        print(i, end="")
