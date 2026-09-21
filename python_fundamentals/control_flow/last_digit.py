@@ -4,6 +4,8 @@ number = __import__('random').randint(-10000, 10000)
 
 n = str(number)
 digit = int(n[len(n) - 1])
+if number < 0:
+    digit *= -1
 
 if digit > 5:
     print(f"Last digit of {number} is {digit} and is greater than 5")
