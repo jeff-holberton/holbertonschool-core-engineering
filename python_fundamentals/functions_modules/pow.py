@@ -12,5 +12,3 @@ def pow(a, b):
             p *= a
         return 1 / p
     return p
-
-print(pow(10,2))
