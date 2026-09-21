@@ -3,9 +3,14 @@
 def pow(a, b):
     if b == 0:
         return 1
-    pow = a
-    for i in range(b - 1):
-        pow *= a
+    p = a
+    if (b > 0):
+        for i in range(1, b):
+            p *= a
     if b < 0:
-        return 1/pow
-    return pow
+        for i in range(1, b * -1):
+            p *= a
+        return 1 / p
+    return p
+
+print(pow(10,2))
