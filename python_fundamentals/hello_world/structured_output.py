@@ -7,5 +7,5 @@ computation = True
 print(f"Language: {language}")
 print(f"Version: {version}")
 print(f"Pi approx: {pi}")
-if computation == True is True:
-	print(f"Computation valid: {computation}")
+if computation == 1:
+    print(f"Computation valid: {computation}")
