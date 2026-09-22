@@ -4,6 +4,6 @@ def print_matrix_integer(matrix=[[]]):
     for list in matrix:
         for index, element in enumerate(list):
             if index != len(list) - 1:
-                print("{} ".format(element), end="")
+                print("{:d} ".format(element), end="")
             else:
-                print("{}".format(element))
+                print("{:d}".format(element))
