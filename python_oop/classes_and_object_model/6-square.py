@@ -47,6 +47,7 @@ class Square:
             print()
             return
         for i in range(self.__size):
+            print('\n' * self.__position[1], end="")
             print(" " * self.__position[0], end="")
             print("#" * self.__size)
 
@@ -73,6 +74,7 @@ class Square:
         if self.__size == 0:
             return str
         for i in range(self.__size):
+            str += '\n' * self.__position[1]
             str += " " * self.__position[0]
             str += "#" * self.__size
             str += '\n'
