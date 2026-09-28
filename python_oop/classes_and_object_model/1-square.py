@@ -6,4 +6,4 @@ class Square:
     """Square class definition"""
     def __init__(self, size):
         """Definition of init method"""
-        self.size = size
+        self.__size = size
