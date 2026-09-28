@@ -4,4 +4,4 @@ def raise_exception_msg(message=""):
     try:
         pritn(message)
     except NameError:
-        print("Name Error")
+        print("Exception has been raised")
