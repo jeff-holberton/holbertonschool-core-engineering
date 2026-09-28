@@ -4,4 +4,4 @@ def raise_exception_msg(message=""):
     try:
         pritn(message)
     except NameError:
-        print("C is fun")
+        print(message)
