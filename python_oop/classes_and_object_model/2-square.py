@@ -4,7 +4,7 @@
 
 class Square:
     """Square class definition"""
-    def __init__(self, size):
+    def __init__(self, size=0):
         """Definition of init method"""
         if isinstance(size, int) and size >= 0:
             self.__size = size
