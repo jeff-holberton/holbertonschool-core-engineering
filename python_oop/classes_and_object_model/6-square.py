@@ -52,11 +52,12 @@ class Square:
 
     @property
     def position(self):
-        """getter method"""
+        """position getter method"""
         return self.__position
 
     @position.setter
     def position(self, position):
+        """position setter method"""
         if (
             isinstance(position, tuple)
             and len(position) == 2
