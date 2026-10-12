@@ -5,4 +5,5 @@
 def append_write(filename="", text=""):
     """append_write function"""
     with open(filename, 'a') as f:
-        f.write(text)
+        char_added = f.write(text)
+    return char_added
