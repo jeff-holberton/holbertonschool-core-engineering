@@ -5,4 +5,5 @@
 def write_file(filename="", text=""):
     """write_file function"""
     with open(filename, 'w') as f:
-        f.write(text)
+        char_read = f.write(text)
+    return char_read
