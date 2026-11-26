@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Unicast server"""
+"""Broadcast server"""
 import asyncio
 from websockets.asyncio.server import serve, broadcast
 
